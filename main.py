@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
 moves = ['L','R','F']
-moves2 = ['T','L','T','R','T']
+moves2 = ['T','T','L','T','T','R','T','T']
 moves3 = ['L','F']
 
 @app.route("/", methods=['GET'])
